@@ -112,7 +112,10 @@ nav a:hover {
 }
 
 
-
+.logo a {
+    color: white;
+    text-decoration: none;
+}
 
 section {
     width: 100%;
@@ -142,14 +145,6 @@ section.sec1 {
     
 }
 
-/* .overlay {
-    width: 100%;
-    height: 100%;
-    background: #000;
-    opacity: .7;
-    
-   
-} */
 
 section.sec1::before {
     content: "";
@@ -212,8 +207,63 @@ section.sec2 p {
     font-family: sans-serif;
     color: #262626;
     font-size: 16px;
-
 }
+
+footer p {
+    color: white;
+}
+
+
+/* projects page start  */
+
+.pro1 {
+    width: 960px;
+    /* background: #73b2c6; */
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-image: url("img/img_scale/970.jpg");
+    background-color:#8499B4;
+    background-blend-mode: luminosity;
+}
+
+.pro1::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background: white;;
+    transform-origin: left;
+    transform: skewY(-10deg);
+}
+
+.pro2 {
+    width: 960px;
+    /* background: #73b2c6; */
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-image: url("img/img_scale/970.jpg");
+    background-color:#8499B4;
+    background-blend-mode: luminosity;
+}
+
+.pro2::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background: white;;
+    transform-origin: left;
+    transform: skewY(-10deg);
+}
+
+
+/* project page end */
 
 /* start media query for the navbar */
 
@@ -273,7 +323,7 @@ section.sec2 p {
     }
 
      section.sec2 {
-        margin: 2em;
+        /* margin: 2em; */
         height: auto;
         padding: 100px;
         box-sizing: border-box;
@@ -289,3 +339,30 @@ section.sec2 p {
     
     } 
 }
+
+
+
+
+
+
+
+
+
+/* default screen, non-retina */
+/* section.sec1  { 
+    background-image: url("img/img_scale/1290.jpg"); 
+} */
+
+/* @media only screen and (max-width: 320px) { */
+    /* Small screen, non-retina
+    .section.sec1  { 
+        background-image: url("/img/img_scale/290jpg"); 
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 538px) {
+    /* Medium screen, non-retina */
+    /* .section.sec1  { 
+        background-image: url("img/img_scale/583.jpg"); 
+    }
+} */ 
