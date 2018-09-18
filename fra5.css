@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500|Raleway');
 :root {
     --background: rgb(78, 122, 178);
 }
@@ -20,6 +21,7 @@ header {
     position: fixed;
     z-index: 999;
     width: 100%;
+    height: 50px;
 }
 
 nav {
@@ -39,7 +41,6 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    
 }
 
 nav li {
@@ -50,10 +51,11 @@ nav li {
 nav a {
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     opacity: 0;
     transition: opacity 150ms ease-in-out;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav a:hover {
@@ -110,10 +112,17 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 250ms;
 }
 
+.logo {
+    margin-top: 5px;
+}
 
 .logo a {
     color: white;
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 section {
@@ -131,8 +140,8 @@ section.sec1 {
     background-position: center center;
     width: 100%;
     height: 100vh;
-    background-color:#8499B4;
-    background-blend-mode: luminosity;
+    /* background-color:#8499B4;
+    background-blend-mode: luminosity; */
 }
 
 
