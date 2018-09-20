@@ -196,9 +196,9 @@ section.sec2 {
     box-sizing: border-box;
 }
 
-section.sec2 p {
-    margin: 10px;;
-    padding: 10px;
+section.sec2 p { 
+    margin: 10px;
+    padding: 20px;
     font-family: sans-serif;
     color: #262626;
     font-size: 16px;
@@ -257,6 +257,10 @@ footer p {
 
 
 /* project page end */
+
+/* media query for the footer image */
+
+
 
 /* start media query for the navbar */
 
@@ -324,15 +328,22 @@ footer p {
     section.sec2 p {
         margin: 10px;;
         padding: 10px;
-        font-family: sans-serif;
-        color: #262626;
-        font-size: 18px;
+        font-size: 1em;
+        line-height: 2;
     } 
     
 }
-
-
-/* media query for the footer image */
+ 
+@media screen and (min-width: 960px){
+    section.sec2 p {
+        width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+        line-height: 2;
+        font-size: 1em;
+        
+    } 
+}
 
 @media screen and (max-width: 640px){
     section.sec3 {
@@ -346,6 +357,7 @@ footer p {
         
     }
 }
+
 
 
 
