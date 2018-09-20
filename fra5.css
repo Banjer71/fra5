@@ -120,7 +120,7 @@ nav a:hover {
     color: white;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-size: 0.8em;
+    font-size: 0.5em;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
@@ -343,6 +343,10 @@ footer p {
         font-size: 1em;
         
     } 
+
+    .logo a {
+        font-size: 0.8em;
+    }
 }
 
 @media screen and (max-width: 640px){
