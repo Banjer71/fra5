@@ -210,58 +210,6 @@ footer p {
 }
 
 
-/* projects page start  */
-
-.pro1 {
-    width: 960px;
-    height: 500px;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-    background-image: url("img/img_scale/970.jpg");
-    background-color:#8499B4;
-    background-blend-mode: luminosity;
-}
-
-.pro1::before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    width: 100%;
-    height: 100%;
-    background: white;;
-    transform-origin: left;
-    transform: skewY(-10deg);
-}
-
-.pro2 {
-    width: 960px;
-    height: 500px;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-    background-image: url("img/img_scale/970.jpg");
-    background-color:#8499B4;
-    background-blend-mode: luminosity;
-}
-
-.pro2::before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    width: 100%;
-    height: 100%;
-    background: white;;
-    transform-origin: left;
-    transform: skewY(-10deg);
-}
-
-
-/* project page end */
-
-/* media query for the footer image */
-
-
 
 /* start media query for the navbar */
 
