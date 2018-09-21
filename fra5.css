@@ -6,14 +6,15 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
-
 
 *::before, *::after {
     box-sizing: border-box;
 }
 
 /* mobile navigation */
+
 
 header {
     background: var(--background);
@@ -120,7 +121,7 @@ nav a:hover {
     color: white;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-size: 0.5em;
+    font-size: 0.6em;
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-left: 25px;
@@ -196,6 +197,51 @@ section.sec2 {
     height: auto;
     box-sizing: border-box;
 }
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+    text-shadow: 2px 2px 2px #CCCCCC;
+}
+
+.subtitle {
+    text-align: center;
+    
+}
+
+.subtitle span {
+    font-size: 2em;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 2px #CCCCCC;
+    
+}
+
+.subtitle span:before,
+.subtitle span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  top: 0;
+  width: 200px;
+}
+
+.subtitle span:before {
+    right: 100%;
+    margin-right: 15px;
+    margin-top:20px;
+  }
+  .subtitle span:after {
+    left: 100%;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
 
 section.sec2 p { 
     margin: 10px;
