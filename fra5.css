@@ -229,7 +229,7 @@ section.sec2 {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   top: 0;
-  width: 200px;
+  
 }
 
 .subtitle span:before {
@@ -326,6 +326,12 @@ footer p {
         font-size: 1em;
         line-height: 2;
     } 
+
+    .subtitle span:before,
+    .subtitle span:after {
+        width: 200px;
+  
+}
     
 }
  
