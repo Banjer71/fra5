@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
 :root {
     --background: rgb(78, 122, 178);
 }
@@ -6,7 +9,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+    text-decoration: none;
 }
 
 *::before, *::after {
@@ -57,6 +60,7 @@ nav a {
     opacity: 0;
     transition: opacity 150ms ease-in-out;
     font-family: 'Raleway', sans-serif;
+   
 }
 
 nav a:hover {
@@ -125,6 +129,9 @@ nav a:hover {
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-left: 25px;
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Roboto Slab', serif; */
+    
 }
 
 section {
@@ -255,7 +262,9 @@ footer p {
     color: white;
 }
 
-
+.BJC {
+    font-style: oblique;
+}
 
 /* start media query for the navbar */
 
@@ -336,8 +345,8 @@ footer p {
 }
  
 @media screen and (min-width: 960px){
-    section.sec2 p {
-        width: 960px;
+    section.sec2  {
+        width: 1240px;
         margin: 0 auto;
         padding: 20px;
         line-height: 2;
@@ -348,6 +357,30 @@ footer p {
     .logo a {
         font-size: 0.8em;
     }
+
+    .t-riot {
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        border-radius:5px;
+        -webkit-box-shadow: 0px 1px 5px -2px rgba(0,0,0,1);
+        -moz-box-shadow: 0px 1px 5px -2px rgba(0,0,0,1);
+        box-shadow: 0px 1px 5px -2px rgba(0,0,0,1);
+    }
+
+    .bjc {
+       display: flex;
+       /* align-items: center; */
+      
+    }
+
+    .info-bjc {
+        border-radius:5px;
+        -webkit-box-shadow: 0px 1px 5px -2px rgba(0,0,0,1);
+        -moz-box-shadow: 0px 1px 5px -2px rgba(0,0,0,1);
+        box-shadow: 0px 1px 5px -2px rgba(0,0,0,1);
+    }
+    
 }
 
 @media screen and (max-width: 640px){
@@ -359,12 +392,42 @@ footer p {
         background-size: cover;
         width: 100%;
         height: 300px;
-        
     }
+    
+    
 }
 
 
+/* project page */
 
+.t-name,
+.bjc-name {
+    font-family: Raleway, sans-serif;
+    font-size: 2em;
+    letter-spacing: 5px;
+    margin-top: 50px;
+    margin-bottom:30px;
+    text-align: center;
+}
+
+/* .t-riot,
+.bjc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+} */
+
+.prj .t-riot,
+.prj .bjc {
+    line-height: 25px;
+    
+}
+
+img .project {
+    width: 100%;
+}
 
 
 
