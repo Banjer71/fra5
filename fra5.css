@@ -266,6 +266,10 @@ footer p {
     font-style: oblique;
 }
 
+img.project{
+    width:100%;
+}
+
 /* start media query for the navbar */
 
 @media screen and (min-width: 800px) {
@@ -360,8 +364,8 @@ footer p {
 
     .t-riot {
         display: flex;
-        /* align-items: center; */
         justify-content: center;
+        align-items: center;
         border-radius:5px;
         -webkit-box-shadow: 0px 1px 5px -2px rgba(0,0,0,1);
         -moz-box-shadow: 0px 1px 5px -2px rgba(0,0,0,1);
@@ -395,12 +399,14 @@ footer p {
     }
     
     
+
+    
 }
 
 
 /* project page */
 
-.t-name,
+/* .t-name,
 .bjc-name {
     font-family: Raleway, sans-serif;
     font-size: 2em;
@@ -408,7 +414,7 @@ footer p {
     margin-top: 50px;
     margin-bottom:30px;
     text-align: center;
-}
+} */
 
 /* .t-riot,
 .bjc {
@@ -419,15 +425,15 @@ footer p {
     
 } */
 
-.prj .t-riot,
+/* .prj .t-riot,
 .prj .bjc {
     line-height: 25px;
     
-}
+} */
 
-img .project {
+/* img .project {
     width: 100%;
-}
+} */
 
 
 
