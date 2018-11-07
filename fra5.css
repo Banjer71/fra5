@@ -251,7 +251,7 @@ section.sec2 {
   }
 
 section.sec2 p { 
-    margin: 10px;
+    /* margin: 10px; */
     padding: 20px;
     font-family: sans-serif;
     color: #262626;
