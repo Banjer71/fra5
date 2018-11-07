@@ -376,7 +376,7 @@ h2.bjc-name {
         width: 1240px;
         margin: 0 auto;
         padding: 20px;
-        line-height: 2;
+        /* line-height: 2; */
         font-size: 1em;
         
     } 
@@ -398,7 +398,7 @@ h2.bjc-name {
 
     .bjc {
        display: flex;
-       align-items: center;
+       /* align-items: center; */
       
     }
 
@@ -409,6 +409,10 @@ h2.bjc-name {
         box-shadow: 0px 1px 5px -2px rgba(0,0,0,1);
         margin-top: 6em;
     }
+
+    
+    
+    
     
 }
 
@@ -429,42 +433,7 @@ h2.bjc-name {
 }
 
 
-/* project page */
 
-
-/* .sec2.prj{
-    line-height: 1.5em;
-    
-} */
-
-/* .t-name,
-.bjc-name {
-    font-family: Raleway, sans-serif;
-    font-size: 2em;
-    letter-spacing: 5px;
-    margin-top: 50px;
-    margin-bottom:30px;
-    text-align: center;
-} */
-
-/* .t-riot,
-.bjc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    
-} */
-
-/* .prj .t-riot,
-.prj .bjc {
-    line-height: 25px;
-    
-} */
-
-/* img .project {
-    width: 100%;
-} */
 
 
 
