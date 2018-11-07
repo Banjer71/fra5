@@ -300,7 +300,7 @@ h2.bjc-name {
 }
 
 .box iframe{
-    width: 470px;
+    min-width: 360px;
     height: 300px;
     display: block;
 }
