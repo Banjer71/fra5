@@ -1,0 +1,25 @@
+section.sec1 {
+    position: relative;
+    overflow: hidden;
+    background: url(img/project-pic.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 60%;
+    width: 100%;
+    height: 100vh;
+}
+
+@media all and (min-width: 780px) {
+    section.sec1 {
+        position: relative;
+        overflow: hidden;
+        background: url(img/project-pic.JPG);
+        background-attachment: fixed;
+        background-size: cover;
+        /* background-position: 60%; */
+        width: 100%;
+        top: -10%;
+        height: 100vh;
+    }
+
+}
