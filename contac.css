@@ -1,10 +1,25 @@
 section.sec1 {
     position: relative;
     overflow: hidden;
-    background: url(img/batteria.jpeg);
+    background: linear-gradient(rgb(78, 122, 178, 0.4), rgb(78, 122, 178, 0.4)), url(img/img2/batteria.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: right;
     width: 100%;
     height: 100vh;
+}
+
+@media all and (min-width: 780px) {
+    section.sec1 {
+        position: relative;
+        overflow: hidden;
+        background: linear-gradient(rgb(78, 122, 178, 0.4), rgb(78, 122, 178, 0.4)), url(img/batteria.jpeg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        top: -10%;
+        height: 100vh;
+    }
+
 }
